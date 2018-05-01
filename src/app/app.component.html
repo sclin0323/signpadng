@@ -28,14 +28,6 @@
   </div>
 
   <div class="row">
-
-      <form class="form-inline">
-      
-      </form>
-
-  </div>
-
-  <div class="form-row">
       <div class="col-6">
           <button type="button" class="btn btn-block" mat-raised-button (click)="clear()">重新簽名</button>
       </div>
@@ -43,6 +35,22 @@
           <button type="button" class="btn btn-block" mat-raised-button color="primary" (click)="saveButton()">確認送出</button>
       </div>
   </div>
+
+  <div class="row mt-3">
+    <div class="col-6">
+        <button type="button" class="btn btn-block" mat-raised-button color="warn" (click)="testForEach()">Test ForEach</button>
+    </div>
+    <div class="col-6">
+        <button type="button" class="btn btn-block" mat-raised-button color="warn" (click)="testMap()">Test Map</button>
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-6">
+        <button type="button" class="btn btn-block" mat-raised-button color="warn" (click)="testFilter()">Test Filter</button>
+    </div>
+    
+</div>
 
 
   <!--
